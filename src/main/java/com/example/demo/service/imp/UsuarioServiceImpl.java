@@ -25,6 +25,8 @@ public class UsuarioServiceImpl implements UsuarioService{
 	public Usuario addUser(Usuario usuario) {
 		return usuariorepository.save(usuario);
 	}
+
+
 	
 	
 	
